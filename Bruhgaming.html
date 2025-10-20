@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Autobiography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #004aad;
+            color: white;
+            padding: 40px 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #003580;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        .profile-pic {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .profile-pic img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #004aad;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 800px;
+        }
+
+        section h2 {
+            color: #004aad;
+            margin-bottom: 10px;
+        }
+
+        section h3 {
+            color: #222;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .profile-pic img {
+                width: 150px;
+                height: 150px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Autobiography</h1>
+        <p>By Zedric Anthony B. Prondoso</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#education">Education</a>
+        <a href="#goals">Goals</a>
+    </nav>
+
+    <div class="profile-pic">
+        <img src="https://raw.githubusercontent.com/oozugamering-lgtm/hello/refs/heads/main/facebr.jpg?token=GHSAT0AAAAAADNO6W7OGPLQALDZXK7IOZIS2HV5Q2A">
+    </div>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello, my name is Zedric Anthony B. Prondoso. Currently studying at LLCC as a college student majoring Bachelor of Industrial Technology with the grade and section of 1-C</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I was born in Owak, Asturias, Cebu on June 20th of 2003 (22 years old). I'm the third eldest out of the five of us siblings, that includes me in the count. Due to personal reasons, I for the most part, am older than most of my peers. But it doesn't make any difference to me as it does not matter for the purpose of learning.
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>
+            I draw a lot, well not as much as before since college has started, I also like to play online games to pass time, and I like to play with my dog named Bella.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education Background</h2>
+        <h3>Primary Education</h3>
+        <p>
+            I first started to learn from Asian Learning Center as a kindergarten, though I don't really remember much because I was still very young. I then went back to the province for reasons I cannot disclose to study at a local elementary school named Owak Elementary School for my primary education.
+        </p>
+
+        <h3>Secondary Education</h3>
+        <p>
+            After graduating from that school, my dad enrolled me to Saint Francis Academy which is located at Balamban, Cebu. During my 9th grade, I was having complications with myself so I went on a hiatus from school for 4 years and then after that graduated secondary school at Gun-Ob National High School during the pandemic. For my senior high school years, I went to Marigondon National High School.
+        </p>
+
+        <h3>College</h3>
+        <p>
+            Now I'm currently studying at Lapu-Lapu City College as a first year college student for Bachelor of Industrial Technology.
+        </p>
+    </section>
+
+    <section id="goals">
+        <h2>My Personal Goals in Life</h2>
+        <p>
+            First of all, I want to graduate college for the time being so that I may be able to achieve what I'm currently aiming for with a degree and the experience needed, and right now what I'm aiming for is either becoming a game developer of some sort or going abroad together with my brother. Both of which would still help me and my family to live a more leisurely life, the difference is that the other one is what I've yearned for when I was a kid and the other is what I've yearned for as an adult.
+        </p>
+    </section>
+
+</body>
+</html>
